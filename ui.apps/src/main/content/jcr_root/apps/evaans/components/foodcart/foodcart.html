@@ -1,0 +1,17 @@
+
+
+<h2>Food Cart</h2>
+<div data-sly-use.food="com.evaans.core.models.FoodCart">
+<h1>${food.restaurantName} Restaurant</h1>
+    <div data-sly-list.item="${food.foodName}">
+        <p>Food : ${item}</p>
+    </div>
+    <p>All Menu : <b>${food.foodName @ join=', '}</b></p>
+    =========================USING MAP ==========================================
+    <div data-sly-list.item="${food.foodDetailsWithMap}">
+        ---------------------Book : ${itemList.count}----------------------------
+        <p> Food : <b>${item.foodname}</b></p>
+        <p> Food : <b>${item.foodtype}</b></p>
+        <p> Food : <b>${item.foodcost}</b></p>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/evaans" mode="merge"/>
+    <filter root="/content/evaans" mode="merge"/>
+    <filter root="/content/dam/evaans" mode="merge"/>
+    <filter root="/content/experience-fragments/evaans" mode="merge"/>
+</workspaceFilter>
